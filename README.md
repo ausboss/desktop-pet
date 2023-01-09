@@ -1,6 +1,7 @@
 # desktop-pet
 
-![demo](click.gif)
+![cave chaos demo](doc/click.gif)
+![bonzi buddy demo](doc/bonzi.gif)
 
 Desktop pet using Python. Sprites in the assets folder are stolen from Nitrome. This project is based off of [this Medium post](https://medium.com/analytics-vidhya/create-your-own-desktop-pet-with-python-5b369be18868) but the code in that post is highly inflexible and a lot of things are hard coded.
 
@@ -13,7 +14,7 @@ My project has:
 
 ### Creating a pet config
 
-Create a folder with a JSON file named `config.json` describing the pet, and all the gifs for your pet. The specifics of this JSON file are explained later. You can simply take one of the example configs I made in the `/assets/` folder in this repo. 
+Create a folder with a JSON file named `config.json` describing the pet, and all the gifs for your pet. The specifics of this JSON file are explained later. You can simply take one of the example configs I made in the `/assets/` folder in this repo.
 
 ### Running the program
 
@@ -59,7 +60,7 @@ A list of events that can be triggered with your pet and a list of states your p
 
 Pets are finite state machines. This means that the "state" they are in follows a flow chart like this:
 
-![FSM Diagram](fsm.jpg)
+![FSM Diagram](doc/fsm.jpg)
 
 The states and transitions are defined in the JSON file. When left alone, the pet will randomly transition between these states.
 
