@@ -1,10 +1,12 @@
 import random
-import os
-import openai
-from dotenv import load_dotenv
 import pyttsx3
 import os
 import threading
+
+
+
+
+
 
 def normalize(list):
     mag = sum(list)
@@ -30,11 +32,8 @@ class WeightedRandomMap:
                 return self.names[i - 1]
         return self.names[-1] 
 
-def openai_query(message):
-    load_dotenv()
-    openai.api_key = os.getenv("OPENAI_API_KEY")
-    response = openai.Completion.create(model="text-davinci-003", prompt=message, temperature=.9, max_tokens=40)
-    return response["choices"][0]["text"]
+
+
 
 def speak(message, callback):
     engine = pyttsx3.init()
