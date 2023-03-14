@@ -1,7 +1,9 @@
 # desktop-pet
 
-![cave chaos demo](doc/click.gif)
-![bonzi buddy demo](doc/bonzi.gif)
+# PYG CONVERSION
+
+![demo](https://i.imgur.com/8kDR9bp.jpg)
+
 
 Desktop pet using Python. Sprites in the assets folder are stolen from Nitrome. This project is based off of [this Medium post](https://medium.com/analytics-vidhya/create-your-own-desktop-pet-with-python-5b369be18868) but the code in that post is highly inflexible and a lot of things are hard coded.
 
